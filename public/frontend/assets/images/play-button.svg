@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92" height="92" viewBox="0 0 92 92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #002838;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="-47" y="-30" width="185" height="185" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="-1.116" dy="15.961" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="7"/>
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Shape_1_copy_2" data-name="Shape 1 copy 2" class="cls-1" d="M82.106,24.86A41.692,41.692,0,0,0,5.728,34.916a41.69,41.69,0,0,0,29.481,51.06,41.868,41.868,0,0,0,10.859,1.439A41.707,41.707,0,0,0,82.106,24.86ZM82.077,55.373a37.35,37.35,0,0,1-68.424,9.008A37.375,37.375,0,0,1,45.939,8.34a37.549,37.549,0,0,1,9.727,1.289A37.351,37.351,0,0,1,82.077,55.373ZM66,41.772L39.2,26.3a4.543,4.543,0,0,0-6.815,3.935V61.183A4.534,4.534,0,0,0,39.2,65.117L66,49.641A4.543,4.543,0,0,0,66,41.772ZM63.833,45.88L37.026,61.357a0.2,0.2,0,0,1-.3-0.175V30.23a0.18,0.18,0,0,1,.1-0.174,0.209,0.209,0,0,1,.1-0.032,0.189,0.189,0,0,1,.1.032L63.833,45.532a0.18,0.18,0,0,1,.1.175A0.176,0.176,0,0,1,63.833,45.88Zm7.8-19.979a32.739,32.739,0,0,0-21.295-12.3,2.171,2.171,0,0,0-.588,4.3A28.37,28.37,0,0,1,68.2,28.558,2.171,2.171,0,0,0,71.629,25.9Z"/>
+</svg>

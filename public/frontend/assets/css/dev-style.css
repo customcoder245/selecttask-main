@@ -1,0 +1,61 @@
+.admin_window .post_a_task, .services_window .post_a_task{
+    display: block;
+}
+.services_window .become_a_pro{ display:none; }
+.servicePriceTag{display:none; }
+.wide .timePopup{visibility: visible; opacity: 1;}
+ .timePopup{visibility: hidden; opacity: 0;}
+ .buttonstyleRadios  .divFun+label span::after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: #00a651;
+    border-width: 8px;
+    margin-left: -8px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.buttonstyleRadios .divFun:checked+label:after, .buttonstyleRadios .divFun:not(:checked)+label:after {
+    background: #00a651;
+    border-color: #00a651;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    color: #fff;
+}
+.buttonstyleRadios .divFun:not(:checked)+label:before, .buttonstyleRadios .divFun:checked+label:after, .buttonstyleRadios .divFun:not(:checked)+label:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.services-widget a{    white-space: inherit;}
+.loader_image {
+    margin: 0 auto;
+    text-align: center;
+}
+.loader_image img {
+    width: 10%;
+    margin: 0 auto;
+}
+
+.source-list a {
+    white-space: break-spaces;
+    
+}
+.sign-up-email_error{
+	color:red;
+}

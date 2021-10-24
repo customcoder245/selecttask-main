@@ -1,0 +1,380 @@
+/* font CSS
+========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+@font-face {
+font-family: 'ProximaNovaSemibold';
+src: url('../fonts/ProximaNovaSemibold.eot');
+src: url('../fonts/ProximaNovaSemibold.eot') format('embedded-opentype'),
+url('../fonts/ProximaNovaSemibold.woff2') format('woff2'),
+url('../fonts/ProximaNovaSemibold.woff') format('woff'),
+url('../fonts/ProximaNovaSemibold.ttf') format('truetype'),
+url('../fonts/ProximaNovaSemibold.svg#ProximaNovaSemibold') format('svg');
+}
+
+
+/* Reset CSS
+========================================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+margin: 0; padding: 0; border: 0; font-size: 100%; vertical-align: baseline; }
+
+body { background: #ffffff; color: #222222; font-family: 'Lato', sans-serif; font-weight: 400; font-size: 18px;  line-height: 1; overflow-x: hidden;}
+
+/* Common CSS
+========================================================================== */
+ol, ul { list-style: none; }
+
+a, .btn { transition: all 0.5s ease; }
+a:active, a:hover, a:focus, .btn:focus, .btn:active, .btn:hover, *:focus, button:focus  { outline: 0; }
+a { color: #002838; text-decoration: none; white-space: nowrap; }
+a:focus, a:hover { color: #00a651; text-decoration: none; }
+
+b, strong { font-weight: bold; }
+small { font-size: 80%; }
+sub, sup { font-size: 72%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.4em; }
+sub { bottom: -0.25em; }
+
+img { border: 0; vertical-align: middle; max-width: 100%; height: auto; }
+hr { box-sizing: content-box; height: 0; }
+
+svg:not(:root) { overflow: hidden; }
+
+h1, h2, h3{ color: #002838;}
+h4{ color: #222;}
+textarea{resize: none;}
+
+/****** Button Css ***/
+.btn{ border: 0px;  font-weight: 600;}
+.btn:hover, .btn:focus{ box-shadow: none; outline: 0px;}
+.btn-sm, .btnLg{border-radius: 10px;}
+.btn-sm { font-size: 19px; padding: 1rem 2rem; }
+.btnLg{padding: 23px 25px; font-size: 26px; line-height: 32px;}
+
+.btn-primary{ background: #f7931d;  color: #ffffff;}
+.btn-primary:hover, .btn-primary:focus ,.btn-primary:not(:disabled):not(.disabled):active{ background: #f68600; color: #ffffff;}
+
+.btn-primary-shadow:hover{box-shadow: -3.209px 45.888px 116.4px 3.6px rgba(247, 147, 29, 0.25);}
+
+.btn-secondary{background-color: #002838; color: #ffffff;}
+.btn-secondary:hover, .btn-secondary:focus ,.btn-secondary:not(:disabled):not(.disabled):active{ background: #1f3741;color: #ffffff;}
+.btn-secondary-shadow:hover{
+box-shadow: -2.581px 36.91px 55.29px 1.71px rgba(0, 40, 56, 0.16);
+}
+
+.btn-green{ background: #00a651; color: #ffffff;}
+.btn-green:hover, .btn-green:focus ,.btn-green:not(:disabled):not(.disabled):active{ background: #008c44;color: #ffffff;}
+.btn-green-shadow:hover{ box-shadow: -2.441px 34.915px 92.15px 2.85px rgba(0, 166, 81, 0.26);}
+
+/****** Color Css ***/
+.text-primary, .text-primary:hover, .text-primary:focus,
+a.text-primary:focus, a.text-primary:hover{color: #00a651!important;}
+.text-green{ color: #27cd72!important;}
+.text-green:hover{ color: #234655!important;}
+.textSecondary{color: #002838; }
+
+/****** Custom Css ***/
+.container { max-width: 1240px; width: 100%; }
+
+/*-------------------------------------------------------*/
+/*  Header Navigation Css
+/*-------------------------------------------------------*/
+.site-header{ background: rgba(255, 255, 255, 0.95); box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.04); padding: 20px 19px; position: relative; z-index: 2;}
+
+.site-header .navbar-brand { width: 208px; min-width: 208px; }
+
+.site-header ul.navbar-nav li.nav-item { margin: 0px 1.2rem; }
+.site-header .navbar-nav li a.nav-link { color: #002838; font-family: 'ProximaNovaSemibold'; font-size: 20px; white-space: nowrap;}
+.site-header .navbar-nav li a.nav-link:hover,.site-header .navbar-nav li.active a.nav-link { color:#00A651;}
+.site-header .navbar-nav li a.nav-link-sm{ font-family: 'open sans', sans-serif; font-weight: 600;font-size: 18px;}
+
+.topNav{transition: all 0.2s ease;}
+.topNav .navbar-nav{-ms-flex-direction: row; flex-direction: row;}
+.topNav.stick{position: fixed; width: 100%; top: 0; left: 0; background-color: rgba(255, 255, 255, 0.90); -moz-box-shadow: 0px 1px 1px 0px rgb(0 0 0 / 4%); -webkit-box-shadow: 0px 1px 1px 0px rgb(0 0 0 / 4%); box-shadow: 0px 1px 1px 0px rgb(0 0 0 / 4%);}
+.topNav.stick .navbar-nav{justify-content: center;}
+.topNav.stick .navbar-nav .nav-link{padding-top: 1rem; padding-bottom: 1rem;}
+@media (max-width: 1600px){
+    .site-header {padding-left: 0px; padding-right: 0px;}
+}
+
+@media (max-width:991px){
+    .site-header, 
+    .site-header .container-fluid { padding:0; }
+    .site-header .navbar { padding: 1rem; }
+    .site-header .navbar-brand { width: 168px; min-width: 168px; margin: 0 auto 10px; }
+    .site-header .navbar-nav li a.nav-link{font-size: 18px;}
+}
+
+@media (max-width:991px){
+    .site-header ul.navbar-nav li.nav-item{margin: 0px 0.8rem;}
+}
+
+
+@media (min-width:992px){
+    .site-header ul.navbar-nav li.nav-item { margin: 0px 2rem; }
+}
+
+@media (min-width:1600px){
+    .site-header ul.navbar-nav li.nav-item { margin: 0px 3rem; }
+}
+
+/*-------------------------------------------------------*/
+/*  Banner Css
+/*-------------------------------------------------------*/
+.banner{color: #fff;}
+.banner-landing{background: url(../images/banner-bg.png) no-repeat center bottom; background-size: cover;}
+.banner-landing .banner .container-fluid{ max-width: 1800px;}
+.banner .row, 
+.banner .container-fluid,
+.banner .container{height: 100%;}
+.banner h2 {font-size: 38px; margin-bottom: 30px; color: #fff;}
+.bannerContent {font-size: 20px; line-height: 1.5; padding: 20px 0 50px;}
+
+.bannerDiffText{background-color: rgba(0, 0, 0, 0.3); padding: 20px; border: 2px rgba(234, 243, 249, 0.30) solid; border-radius: 8px; margin-top: 50px;}
+.bannerImg-avtar img{max-width: 90%; margin: 0 auto;}
+
+/* @media (min-width: 768px){
+    .banner-landing {height: 753px; }    
+} */
+
+@media (min-width: 992px){
+    
+    .banner h2 {font-size: 40px;}
+    .bannerContent {font-size: 22px; padding: 100px 0;}
+    
+}
+@media (min-width: 1300px){
+    .bannerContent { padding: 125px 0;}    
+}
+
+@media (min-width: 1400px){
+    .banner{padding: 0 40px;}
+    .banner h2 {font-size: 46px; line-height: 60px;}
+    .bannerContent { font-size: 26px;}   
+}
+
+@media (max-width: 767px){
+    .bannerContent {text-align: center;}
+    .mobBlock{display: block;}
+}
+
+
+/*-------------------------------------------------------*/
+/*  Section Css
+/*-------------------------------------------------------*/
+.semiBold{font-weight: 600;}
+.section { padding: 6.5rem 0;}
+.title{ margin-bottom: 3.5rem;}
+.title h2{ font-size: 46px; line-height: 62px; font-weight: 700; margin-bottom: 25px;}
+.title h4{font-size: 24px; line-height: 40px; font-family: 'open sans', sans-serif; color: #222;}
+.mw-300{ min-width: 300px;}
+.mw-321{ min-width: 321px;}
+.mw-380{ min-width: 380px;}
+@media (max-width: 990px){
+    .section {padding: 3.5rem 0;}    
+    .title h2{font-size: 2.5rem;}
+    .title h4{font-size: 1.4rem;}
+}
+@media (max-width: 767px){
+    .section {padding: 2.5rem 0; text-align: center;}
+    .btnLg{ font-size: 20px; min-width: 235px; padding: 15px 25px;}
+    .section {padding: 2.5rem 0; text-align: center;}
+    .title{margin-bottom: 30px;}
+    .title h2, .title h4{line-height: 1.5;}
+    .title h2{ font-size: 1.8rem; margin-bottom: 10px;}
+    .title h4{font-size: 18px;}
+}
+
+/*-------------------------------------------------------*/
+/*  Video Section Css
+/*-------------------------------------------------------*/
+.videosection {background: #fff; border: 1px solid rgba(0, 0, 0, 0.11); border-radius: 8px; width: 100%; max-width: 625px; height: 411px; margin-left: auto; position: relative; }   
+.videosection .play-btn {position: absolute; top: 0px; left: 0px; right: 0; bottom: 0; margin: auto; width: 92px; height: 92px; z-index: 1;}    
+.videosection .videoembed { display: none; }    
+.videosection .cover:after {content: "";background: rgba(255, 255, 255, 0.36);position: absolute;top: 0;right: 0;width: 100%;height: 100%;}    
+.videosection .cover {position: relative;}
+.videoWidget .videosection .cover:after,
+.videosection .cover,
+.videosection .cover img{border-radius: 8px;}
+.videosection .play-btn button { background: transparent; border: 0px; }
+
+.videoWidget .videosection {max-width: 1038px; height: auto; border: none;   background: transparent; box-shadow: none;}
+.videoWidget .videosection .cover:after {background-color: rgba(0, 0, 0, 0.5);
+    position: absolute; left: 0; top: 0; width: 100%; height: 100%; content: " ";}
+.actionBtn{padding-top: 30px; text-align: center;}
+
+@media (min-width:1300px){
+    .bannerDiffText{padding: 30px;}
+    .actionBtn{padding-top: 50px;}
+}
+
+@media (min-width:1600px){
+    .bannerDiffText{padding: 30px 40px;}
+     .actionBtn{padding-top: 77px;}
+}
+
+/*-------------------------------------------------------*/
+/*  Coming Soon Css
+/*-------------------------------------------------------*/
+.comimgSoon{background-color: #00A651;}
+.comimgSoon h2{color: #fff;}
+
+.counter{margin-left: -5px; margin-right: -5px;}
+.counter li {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    list-style-type: none;
+    font-weight: 700; line-height: 1;
+    color: #fff; padding: 0 10px;
+  }  
+ 
+  .counter li span {display: block; font-size: 30px; margin-bottom: 10px;}
+
+  @media (min-width:576px){
+    .counter{margin-left: -12px; margin-right: -12px;}   
+    .counter li{width:120px; height: 120px; font-size: 18px; background-color: rgba(255, 255, 255, 0.20); border-radius: 50%; margin: 12px; padding: 1em; }
+    .counter li span{font-size: 50px;}
+
+  }
+
+  @media (min-width:992px){
+    .counter li{width:140px; height: 140px; font-size: 20px; }
+    .counter li span{font-size: 60px;}
+  }
+
+  @media (min-width:1300px){
+    .counter li{width:186px; height: 186px; font-size: 26px; }
+    .counter li span{font-size: 80px;}
+  }
+
+  @media (max-width:575px){
+    .counter{margin-top: 20px;}
+    .counter li + li{border-left: 2px rgba(255, 255, 255, 0.20) solid;}
+  }
+
+/*-------------------------------------------------------*/
+/*  About Us Css
+/*-------------------------------------------------------*/
+.aboutUs .cmsContent{font-size: 18px; line-height: 1.5;}
+.cmsContent p + p{margin-top: 25px;}
+
+@media (min-width:768px){
+    .aboutUs .cmsContent{font-size: 20px;} 
+}
+
+@media (min-width:992px){
+    .aboutUs .cmsContent{font-size: 24px;} 
+}
+
+@media (min-width:1300px){
+    .aboutUs .cmsContent{font-size: 26px;} 
+    .cmsContent p + p{margin-top: 35px;}
+}
+
+
+/*-------------------------------------------------------*/
+/*  Services Css
+/*-------------------------------------------------------*/
+.servicesSection{background-color: #F6F6F6;}
+.borderedframe{border-radius: 0 0 8px 8px; background-color: #fff; border:1px rgba(201, 218, 228, 0.8) solid; box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.05); -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.05); -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.05); height: 100%;}
+
+.servicePic img{width: 100%; max-height: 190px; object-fit: cover;}
+.services-widget{margin: 15px 0;}
+.serviceText{padding: 20px; font-size: 18px; line-height: 1.4; color: #002838;}
+.serviceText h5{font-size: 24px; font-weight: 700; margin-bottom: 5px; text-align: center;}
+
+@media (max-width:991px){
+    .serviceText{font-size: 16px;}
+    .serviceText h5{font-size: 20px; margin-bottom: 10px;}
+}
+
+/*-------------------------------------------------------*/
+/*  Footer Css
+/*-------------------------------------------------------*/
+.site-footer{padding: 25px 0; font-size: 18px;}
+.site-footer h5 {color: #222; font-size: 20px; font-weight: 700;}
+.site-footer .footer-social h5{margin-right: 20px;}
+.site-footer .social-list { display: flex; display: -webkit-flex; flex-wrap: wrap; max-width: 170px;}
+.site-footer .social-list li a {background: #f7931d; border-radius: 100%; width: 36px; height: 36px; display: flex; display: -webkit-flex; align-items: center; justify-content: center; color: #fff; font-size: 1.2rem;}
+
+@media (min-width:400px){
+    .copyright{margin-left: auto;}
+    .footerContent{display: -ms-flexbox!important;
+        display: flex!important; -ms-flex-wrap: wrap!important;
+        flex-wrap: wrap!important; -ms-flex-align: center!important;
+        align-items: center!important;}
+}
+
+@media (min-width:992px){
+    .site-footer{padding: 35px 0;}
+}
+
+@media (min-width:1300px){
+    .site-footer{padding: 45px 0; font-size: 20px;}
+}
+
+@media (max-width:767px){
+    .site-footer h5{font-size: 18px;}
+    .site-footer{padding: 35px 0;}
+}
+
+@media (max-width:399px){
+    .site-footer{text-align: center;}
+    .copyright{margin-left: auto; margin-top: 15px;}
+}
+
+
+/*-------------------------------------------------------*/
+/*  Job details
+/*-------------------------------------------------------*/
+.banner-inner{height: 440px; background-repeat: no-repeat; background-position: right center; background-size: cover; position: relative;}
+.banner-inner::before{background-color: rgba(0, 0, 0, 0.5); position: absolute; height: 100%; width: 100%; left: 0; top: 0; content: " ";}
+.banner-painting{background-image: url(../images/painting-banner.jpg);}
+.banner-handyman{background-image: url(../images/handymen-banner.jpg);}
+.banner-plumbing{background-image: url(../images/plumbing-banner.jpg);}
+.banner-electric{background-image: url(../images/electric-banner.jpg);}
+.banner-gc{background-image: url(../images/gc-banner.jpg);}
+.banner-roofing{background-image: url(../images/roofing-banner.jpg);}
+.banner-hvacTech{background-image: url(../images/hvac-banner.jpg);}
+.banner-carpenter{background-image: url(../images/carpenter-banner.jpg);}
+.banner-inner h2{font-weight: 700; margin-bottom: 20px;}
+
+.jobDetailsTitle{font-size: 20px; padding-left: 28px; border-left: 2px #fff solid; display: inline-block; margin-bottom: 70px; font-weight: 700;}
+.jobPosted{font-size: 18px;}
+
+.applyNow{font-size: 18px; padding: 12px 15px; border-radius: 8px; margin-top: 20px;}
+.jobDetailsLeft, .jobDetailsRight{padding-left: 15px; padding-right: 15px; width: 100%; position: relative;}
+.jobDetailsRight .services-widget{margin: 25px auto 0; max-width: 350px;}
+
+.detailsRow + .detailsRow,
+.detailsRowContent + .detailsRowContent{margin-top: 50px;}
+.detailsRow h3{font-size: 24px; margin-bottom: 25px; color: #002838; font-weight: 700;}
+.job-locations{line-height: 1.5;}
+.job-locations i{font-size: 18px; color: #666; margin-right: 5px;}
+.detailsRowContent{line-height: 1.5;}
+.detailsRowContent p + p{margin-top: 25px;}
+
+.detailsRowContent h4{font-size: 18px; font-weight: 600; margin-bottom: 10px;  color: #002838;}
+.bulletedlist li{position: relative; padding: 0 0 0 25px; margin-bottom: 5px; text-align: left;}
+.bulletedlist li:after{height: 7px; width: 7px; position: absolute; left: 3px; top: 10px; background-color: #222; border-radius: 50%; content: " ";}
+.specialText{font-size: 20px; font-style: italic; background-color: #FFF7EE; border: 1px rgba(0,40,56,0.13) solid; padding: 25px; border-radius: 8px;}
+.specialText span.semiBold{font-style: normal;}
+
+@media (min-width:767px){
+    .jobDetailsLeft{-ms-flex: 0 0 calc(100% - 370px); flex: 0 0 calc(100% - 370px); max-width: calc(100% - 370px);}
+    .jobDetailsRight{-ms-flex: 0 0 340px; flex: 0 0 340px; max-width: 340px;}
+    .jobDetailsRight .services-widget{margin-top: 0;}
+    .job-locations{position: relative; padding-left: 20px;}
+    .job-locations i{position: absolute; left: 0; top: 5px; }
+    #sidescroller.stick{position: fixed; width: 310px; padding-top: 50px; transition: all 0.5s ease;}
+}
+
+@media (min-width:1300px){
+    .banner-inner .bannerContent{padding: 100px 0;}
+    .banner-inner h2{font-size: 60px; }
+}
+

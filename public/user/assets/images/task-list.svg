@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.8" height="20.3" viewBox="0 0 12.8 20.3">
+  <g id="to-do-list" transform="translate(-95.85 0.15)">
+    <circle id="Ellipse_48" data-name="Ellipse 48" cx="0.5" cy="0.5" r="0.5" transform="translate(98.25 8)" fill="#696767" stroke="#696767" stroke-width="0.3"/>
+    <circle id="Ellipse_49" data-name="Ellipse 49" cx="0.5" cy="0.5" r="0.5" transform="translate(98.25 11)" fill="#696767" stroke="#696767" stroke-width="0.3"/>
+    <circle id="Ellipse_50" data-name="Ellipse 50" cx="0.5" cy="0.5" r="0.5" transform="translate(98.25 13)" fill="#696767" stroke="#696767" stroke-width="0.3"/>
+    <circle id="Ellipse_51" data-name="Ellipse 51" cx="0.5" cy="0.5" r="0.5" transform="translate(98.25 15)" fill="#696767" stroke="#696767" stroke-width="0.3"/>
+    <path id="Path_8236" data-name="Path 8236" d="M216.391,216.781h4.688a.391.391,0,0,0,0-.781h-4.687a.391.391,0,0,0,0,.781Z" transform="translate(-115.312 -207.562)" fill="#696767" stroke="#696767" stroke-width="0.3"/>
+    <path id="Path_8237" data-name="Path 8237" d="M216.391,276.781h4.688a.391.391,0,0,0,0-.781h-4.687a.391.391,0,0,0,0,.781Z" transform="translate(-115.312 -265.219)" fill="#696767" stroke="#696767" stroke-width="0.3"/>
+    <path id="Path_8238" data-name="Path 8238" d="M216.391,336.781h4.688a.391.391,0,0,0,0-.781h-4.687a.391.391,0,0,0,0,.781Z" transform="translate(-115.312 -322.875)" fill="#696767" stroke="#696767" stroke-width="0.3"/>
+    <path id="Path_8239" data-name="Path 8239" d="M216.391,396.781h4.688a.391.391,0,0,0,0-.781h-4.687a.391.391,0,0,0,0,.781Z" transform="translate(-115.312 -380.531)" fill="#696767" stroke="#696767" stroke-width="0.3"/>
+    <path id="Path_8240" data-name="Path 8240" d="M108.109,3.516h-3.174a1.568,1.568,0,0,0-1.122-1.122V1.563a1.562,1.562,0,1,0-3.125,0v.831a1.568,1.568,0,0,0-1.122,1.122H96.391A.391.391,0,0,0,96,3.906v15.7a.391.391,0,0,0,.391.391h4.1a.391.391,0,1,0,0-.781H96.781V4.3h2.734v.781a.391.391,0,0,0,.391.391h4.688a.391.391,0,0,0,.391-.391V4.3h2.734V19.219h-3.711a.391.391,0,0,0,0,.781h4.1a.391.391,0,0,0,.391-.391V3.906A.391.391,0,0,0,108.109,3.516Zm-6.641-1.953a.781.781,0,1,1,1.563,0v.781h-1.562ZM104.2,4.688H100.3V3.906a.782.782,0,0,1,.781-.781h2.344a.782.782,0,0,1,.781.781Z" fill="#696767" stroke="#696767" stroke-width="0.3"/>
+    <ellipse id="Ellipse_52" data-name="Ellipse 52" cx="1" cy="0.5" rx="1" ry="0.5" transform="translate(101.25 19)" fill="#696767" stroke="#696767" stroke-width="0.3"/>
+  </g>
+</svg>
